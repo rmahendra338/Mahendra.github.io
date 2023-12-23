@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>my portfolio website</title>
+  <link rel="stylesheet" href="style3.css">
+  <script src="https://kit.fontawesome.com/3849ed0826.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        
+        <img src="images/logo.jpg" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-sharp fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>Frontend Web designer</p>
+        <h1>Hi i'm <kspan>Mahendra</kspan> <br>from chittoor</h1>
+      </div>
+    </div>
+
+  </div>
+  <!--------------about--------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="images/about 2.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>I am Mahendra from chittoor, i have completed my b tech in mechanical engineering at siddharth institute of engineering and technology.
+            currently iam looking for a job to become a frontend web developer.
+          </p>
+          <div class="tab-titles"> 
+            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+          </div>
+          <div class="tab-contents active-tab" id="Skills">
+            <ul>
+              <li><span>UI/UX</span><br>Designing web/app interfaces</li>
+              <li><span>Web Development</span><br>web app development</li>
+              <li><span>App Development</span><br>Building Android/ios apps</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li><span>03/2021-08/2023</span><br>frontend web developer</li>
+              <li><span>novitas technlogies pvt ltd</span><br>banglore</li>
+              <li><span>trained at q-spider banglore</span><br>HTML,CSS,JAVASCRIPT,PYTHON<br></li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="Education">
+            <ul>
+              <li><span>2016-2020 BTech in Mechanical engineering</span><br>Siddharth institute of engineering and technology,puttur</li>
+              <li><span>2014-2016 Intermediate</span><br>ASR junior college,pachikapallam</li>
+              <li><span>2014 SSC</span><br>ZPHS,chillamakulapalli</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--------------------------services------------------------------>
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">My services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>programming and scripting languages</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop"></i>
+          <h2>UI/UX Design</h2>
+          <p>programming and scripting languages</p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store-ios"></i>
+          <h2>App Design</h2>
+          <p>programming and scripting languages</p>
+          <a href="#">Learn more</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <!-------------------------------------portfolio---------------------------------------------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="images/work-1.jpg">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>the app connects you the talented people around the world.download it from play store</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-2.avif">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>the app connects you the talented people around the world.download it from play store</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="images/work-3.jpg">
+          <div class="layer">
+            <h3>Social Media App</h3>
+            <p>the app connects you the talented people around the world.download it from play store</p>
+            <a href="#"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="#" class="btn">see more</a>
+      </div>
+      </div>
+    </div>
+  </div>
+  <!--------------------------contact--------------------------------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i> navinaliasmahendra@gmail.com</p>
+          <p> <i class="fa-solid fa-phone"></i> 7330738184</p>
+          <div class="social-icons">
+            <a href="mahi.mahendra.121398"><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <p></p><a href="images/Maahi RES.PDF " download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right"></div>
+        <form name="submit-to-google-sheet">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" placeholder="Your Email" required>
+          <textarea name="Message" rows="6" placeholder="Your Meaasge"></textarea>
+          <button type="submit" class="btn btn2">Submit</button>
+          <span id="msg"></span>
+        </form>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>copyright @ Mahendra. made for professional<i class="fa-solid fa-heart"></i> portfolio</p>
+    </div>
+  </div>
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu")
+    function openmenu(){
+      sidemenu.style.right = "0";
+    }
+    function closemenu(){
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script>
+    const scriptURL = '<https://script.google.com/macros/s/AKfycbxMfB2VPtDBK_wdOeddZNKNqmMK3yDK-LBIIHC98Avh6WY38ZzycGPvsB_E15UYAwPLrg/exec>'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "message sent successfully"
+          setTimeout(function(){
+            msg.innerHTML = ""
+          },5000)
+          form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
